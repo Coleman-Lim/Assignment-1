@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
 body{
     background-image: url('image/clean_bandit.png') ;
     background-size:cover ;
@@ -36,7 +36,6 @@ button{
     margin-right: 20px;
     width: 100px;
     border-radius: 20%;
-    margin-top: -45px;
     right: 100px;
     background-color: aqua;
     
@@ -47,7 +46,6 @@ button{
     margin-right: 20px;
     width: 150px;
     border-radius: 20%;
-    margin-top: -45px;
     right: 100px;
     background-color: aqua;
     font-size: small;
@@ -60,7 +58,7 @@ button{
     position: relative;
     float: right;
     margin-right: 20px;
-    margin-top: -50px;
+    margin-top: 0px;
     right: -275px; ;
 }
 #profilepic{
@@ -150,5 +148,30 @@ p{
     background-size:cover ;
     background-repeat: no-repeat;
 
+}
+.title{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 40px;
+    margin-top: -5px;
+    
+
+}
+.oval{
+    width: 300px;
+    height: 445px;
+    background-color: white;
+    border-radius: 10%;
+    margin-top:100px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 5px;
+    position: relative;
+    top: -50px;
+    
+}
+.topOval{
+    width: 150px;
+    height: 100px;
+    background-color:black ;
 }
 
