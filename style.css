@@ -74,4 +74,54 @@ p{
     line-height: 0%;
     color:crimson;
 }
+.menu{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    float: right;
+    margin-right: 100px;
+    margin-top:-170px;
+    border-radius: 5%;
+    background-image:url(background.jpg) ;
+    
+
+}
+#News{
+    float: right;
+    margin-right: 80px;
+    color: white;
+    font-size: x-large;
+    margin-top: 10px;
+    
+}
+#concert{
+    height: 200px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15%;
+    margin-top: -35px;
+}
+.textbox{
+    float: right;
+    margin-right: 10px;
+    width: 270px;
+    height: 170px;
+    border-radius: 15%;
+    margin-top: -5px;
+    border-color: black;
+    border: 3px solid;
+    
+}
+.tour{
+    color: red;
+    text-align: center;
+    margin-top: 0px;
+    font-size: large;
+}
+#description{
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    margin-top: -5px;
+}
 
