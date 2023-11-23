@@ -1,5 +1,5 @@
 body{
-    background-image: url('clean_bandit_4k.png') ;
+    background-image: url('clean_bandit.png') ;
     background-size:cover ;
     background-repeat: no-repeat;
 }
@@ -73,6 +73,5 @@ p{
     top: 360px;
     line-height: 0%;
     color:crimson;
-
-    
 }
+
