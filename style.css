@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 .homepageBackground{
     background-image: url('image/clean_bandit.png');
@@ -37,7 +40,7 @@ body{
 
 
 }
-button{
+.button{
     margin-left: 10px;
     width: 50px;
     height: 50px;
@@ -60,6 +63,7 @@ img{
     right: 100px;
     background-color: aqua;
     font-size: small;
+    margin-top: 10px;
 }
 p{
     font-family: 'Playpen Sans', cursive;
@@ -72,6 +76,7 @@ p{
     border-radius: 20%;
     right: 100px;
     background-color: aqua;
+    margin-top: 10px;
 }
 .profile{
     width: 70px;
@@ -79,8 +84,8 @@ p{
     border-radius: 100%;
     position: relative;
     float: right;
-    right: -275px; 
-    top:-10px
+    right: -260px; 
+    top:5px;
 }
 #profilepic{
     width: 65px;
@@ -92,10 +97,10 @@ p{
     bottom: 0;
     left: 0;
     color: crimson;
-    font-size: 120px;
+    font-size: 100px;
     font-style: italic;
-    font-family: 'Vina Sans', sans-serif;
-    top: 350px;
+    
+    top: 370px;
 }
 .menu{
     width: 300px;
@@ -103,7 +108,7 @@ p{
     position: absolute;
     right: 100px;
     border-radius: 5%;
-    background-image:url(image/background.jpg) ;
+    background-image:url('image/background.jpg') ;
     top:100px
 
 }
@@ -155,7 +160,286 @@ p{
     font-size: large;
     margin-top: 10px;
 }
+#songPage{
+    width: 100%;
+    height: 760px;
+    background-image: url('image/backdrop2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 
+}
+.oval{
+    width: 300px;
+    height: 600px;
+    background-color: yellow;
+    border-radius: 10%;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    bottom:-70px;
+    vertical-align: top;
+    background-image: url('image/backdrop3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.title{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 45px;
+    margin:0;
+    padding-top: 28px;
+    position: relative;
+    text-align: center;
+}
+.shape{
+    width: 200px;
+    height: 70px;
+    border-radius: 40%;
+    background-color: grey;
+    position: absolute;
+    margin-left: 50px;
+    top: -35px; 
+    
+}
+.songAlbum{
+    height: 150px;
+    width: 200px;
+    border-radius: 15%;
+    margin-left: 50px;
+    background-color: aqua;
+    margin-top: 40px;
+
+}
+#symphony{
+    background-image: url('image/symphony.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#songName1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 45px;
+    position:relative;
+    top: -40px;
+    
+}
+.listeners1{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 30px;
+    color: rgb(148, 28, 148);
+    text-shadow: pink 1px 1px;
+
+}
+.description1{
+    height: 170px;
+    width: 95%;
+    border-radius: 10%;
+    margin:5px;
+    background-color: aqua;
+    position:relative;
+    top:-10px;
+    background-image: url(image/cyan_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#description1{
+    font-size: 14px;
+    font-style: italic;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+.streamNow{
+    font-family: 'Nova Square', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin:0
+
+}
+#ratherBe{
+    background-image: url('image/ratherBeIt.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#songName2{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 40px;
+    position:relative;
+    top: -30px;
+}
+.listeners2{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 30px;
+    color: rgb(148, 28, 148);
+    text-shadow: pink 1px 1px;
+}
+.description2{
+    height: 170px;
+    width: 95%;
+    border-radius: 10%;
+    margin:5px;
+    background-color: aqua;
+    position:relative;
+    top:-10px;
+    background-image: url(image/cyan_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#description2{
+    font-size: 14px;
+    font-style: italic;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+.streamNow{
+    font-family: 'Nova Square', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin:0
+
+}
+#rockabye{
+    background-image: url('image/rockabye.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#songName3{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 45px;
+    position:relative;
+    top: -40px;
+}
+.listeners3{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 30px;
+    color: rgb(148, 28, 148);
+    text-shadow: pink 1px 1px;
+}
+.description3{
+    height: 170px;
+    width: 95%;
+    border-radius: 10%;
+    margin:5px;
+    background-color: aqua;
+    position:relative;
+    top:-10px;
+    background-image: url(image/cyan_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#description3{
+    font-size: 13px;
+    font-style: italic;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+.streamNow{
+    font-family: 'Nova Square', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin:0
+
+}
+#solo{
+    background-image: url('image/solo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#songName4{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 45px;
+    position:relative;
+    top: -40px;
+}
+.listeners4{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 30px;
+    color: rgb(148, 28, 148);
+    text-shadow: pink 1px 1px;
+}
+.description4{
+    height: 170px;
+    width: 95%;
+    border-radius: 10%;
+    margin:5px;
+    background-color: aqua;
+    position:relative;
+    top:-10px;
+    background-image: url(image/cyan_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#description4{
+    font-size: 13px;
+    font-style: italic;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+.streamNow{
+    font-family: 'Nova Square', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin:0
+
+}
+#streamNow{
+    width: 100px ;
+    height: 50px;
+    border-radius: 10%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 10px;
+    left:20px;
+    background-image: url(image/youtube_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#streamNow2{
+    width: 100px ;
+    height: 50px;
+    border-radius: 10%;
+    background-color: black;
+    position: absolute;
+    bottom:10px;
+    right: 20px;
+    background-image: url(image/spotify_back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#historyPage{
+    width: 100%;
+    height: 760px;
+    background-image: url('image/backdrop2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rectangle{
+    width: 1000px ;
+    height: 300px;
+    background-color: red;
+    display: flex;
+    position: absolute;
+    align-items: center;
+}
 
 
 
