@@ -1053,6 +1053,7 @@ p{
 
 /* MOBILE VERSION*/
 @media (max-width:700px){
+    /*Home Page*/
     .button{
         display: none;
     }
@@ -1080,6 +1081,10 @@ p{
     
 
     
+
+
+
+    /*Song Page*/
     .oval{
         width: 250px;
         margin-top: 40px;
@@ -1124,6 +1129,9 @@ p{
     .listeners4{
         font-size: 23px;
     }
+
+
+    /* History page */
     .info{
         font-size: 25px;
         bottom:0;
@@ -1162,6 +1170,8 @@ p{
     #learnMore{
         font-size: 20px;
     }
+
+    /*Concert Page*/
     #concertLocation{
         width:100%;
         margin: 0 auto !important;
