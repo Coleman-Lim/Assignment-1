@@ -449,6 +449,81 @@ p{
     background-size: contain;
     background-repeat: no-repeat;
 }
+#streamNow3{
+    width: 100px ;
+    height: 50px;
+    border-radius: 10%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 10px;
+    left:20px;
+    background-image: url(image/youtube_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#streamNow4{
+    width: 100px ;
+    height: 50px;
+    border-radius: 10%;
+    background-color: black;
+    position: absolute;
+    bottom:10px;
+    right: 20px;
+    background-image: url(image/spotify_back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#streamNow5{
+    width: 100px ;
+    height: 50px;
+    border-radius: 10%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 10px;
+    left:20px;
+    background-image: url(image/youtube_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#streamNow6{
+    width: 100px ;
+    height: 50px;
+    border-radius: 10%;
+    background-color: black;
+    position: absolute;
+    bottom:10px;
+    right: 20px;
+    background-image: url(image/spotify_back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#streamNow7{
+    width: 100px ;
+    height: 50px;
+    border-radius: 10%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 10px;
+    left:20px;
+    background-image: url(image/youtube_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#streamNow8{
+    width: 100px ;
+    height: 50px;
+    border-radius: 10%;
+    background-color: black;
+    position: absolute;
+    bottom:10px;
+    right: 20px;
+    background-image: url(image/spotify_back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 #historyPage{
     width: 100%;
     height: 1150px;

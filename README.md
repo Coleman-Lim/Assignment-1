@@ -1,4 +1,6 @@
-# my-newbie-repo
-This is a simple repository to help me with my HTML
+# my-assignment-repository
+The application is a website for the band 'Clean Bandit"
+The website hosts a variety of features for users to enjoy.
+
 
 
