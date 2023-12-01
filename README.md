@@ -1,4 +1,4 @@
-# my-assignment-repository
+# Clean Bandit Official
 The application is a website for the band 'Clean Bandit"
 
 CSS:
