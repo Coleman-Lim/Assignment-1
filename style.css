@@ -67,6 +67,7 @@ body{
     height: 50px;
     border-radius: 100%;
     margin-top: 10px;
+    position: relative;
 }
 img{
     width: 45px;
@@ -489,8 +490,10 @@ p{
 }
 .discovery{
     margin-top: 30px;
-    padding-left:40px;
+    padding-left: 100px;
     font-size: 20px;
+    word-wrap: break-word;
+    width:370px
     
 }
 .learnMore{
@@ -600,8 +603,10 @@ p{
     font-style: normal;
 }
 #discovery3{
-    font-size: 30px;
-    left: 400px
+    position: relative;
+    font-size: 25px;
+    left:40px;
+    padding: 0;
 }
 #ticketprice{
     width: 240px;
@@ -611,7 +616,7 @@ p{
 }
 
 /* MOBILE VERSION*/
-@media (max-width:600px){
+@media (max-width:700px){
     .button{
         display: none;
     }
