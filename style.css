@@ -7,6 +7,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
+*{
+    box-sizing: border-box;
+}
+
 .homepageBackground{
     background-image: url('image/clean_bandit.png');
     background-size: cover;
@@ -21,15 +25,18 @@
     position: fixed;
     background-color: cadetblue;
     z-index: 1;
+    
+    padding-right: 5px;
 }
 body{
-    margin:0
+    margin:0 0 0
 }
 #homepageLeft{
     height: 600px;
     width: 60%;
     float: left;
     position: relative;
+    
 }
 #homepageRight{
     height: 600px;
@@ -37,6 +44,7 @@ body{
     overflow: auto;
     float: right;
     position: relative;
+    
 
 
 }
@@ -129,9 +137,9 @@ p{
 }
 .textbox{
     float: right;
-    margin: 5px;
+    margin: 7px;
     width: 280px;
-    height: 120px;
+    height: 150px;
     border-radius: 15%;
     border-color: black;
     border: 3px solid;
@@ -181,6 +189,8 @@ p{
     background-image: url('image/backdrop3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    margin-left: 7px;
+    
     
 }
 .title{
@@ -427,25 +437,164 @@ p{
 }
 #historyPage{
     width: 100%;
-    height: 760px;
+    height: 1150px;
     background-image: url('image/backdrop2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 .rectangle{
-    width: 1000px ;
-    height: 300px;
-    background-color: red;
-    display: flex;
-    position: absolute;
-    align-items: center;
+    width: 95% ;
+    height: 400px;
+    margin: auto;
+    background-image: url(image/clean_bandit_top.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
-
-
+.border{
+    width: 95%;
+    height: 100px;
+    border-color: black;
+    border: 3px solid;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5%;
+    display: flex;
     
 
+}
+.info{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    position: relative;
+    bottom: 30px;
+    padding-left: 20px;
+    font-style: italic;
+    background-color: red;
+    padding-right: 20px;
+   
+    
+}
+.discovery{
+    margin-top: 30px;
+    padding-left:40px;
+    font-size: 20px;
+    
+}
+.learnMore{
+    width: 200px ;
+    height: 80px;
+    border-radius: 10%;
+    background-color: yellow;
+    margin-top:10px;
+    position: absolute;
+    margin-left:75%;
 
+    
+}
+#learnMore{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
 
+}
+#discovery1{
+    font-size: 17px;
+}
+#discovery2{
+    font-size: 17px;
+}
+.concertPage{
+    width: 100%;
+    height: 1150px;
+    background-image: url(image/backdrop2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 
+}
+#concertLocation{
+    background-image: url(image/concert_location.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 95%;
+    position: absolute;
+    left:30px
+    
 
+}
+.map_pin{
+    width: 40px;
+    height: 60px;
+    
+    
+    
+
+}
+.place1{
+    position: relative;
+    left: 80px;
+    top: 140px;
+    width: 0;
+    
+
+    
+}
+.place2{
+    position: relative;
+    left: 900px;
+    top: 220px;
+    width: 0;
+    
+
+    
+}
+.place3{
+    position: relative;
+    left: 950px;
+    top: 300px;
+    width:0 ;
+    
+
+    
+}
+.number{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: red;
+    position: relative;
+    float: right;
+    top: -110px;
+    left: -5px;
+    
+    
+    
+}
+#upcoming{
+    position: relative;
+    top: 250px;
+    left: 30px;
+    font-size: 30px;
+    color:red;
+    font-family: 'Playpen Sans', cursive;
+}
+#concertBorder{
+    position: relative;
+    top: 250px
+}
+
+#location{
+    font-style: normal;
+}
+#discovery3{
+    font-size: 30px;
+    position: absolute;
+    left: 400px
+}
+#ticketprice{
+    width: 240px;
+    position: absolute;
+    margin-right: 15%;
+
+}
