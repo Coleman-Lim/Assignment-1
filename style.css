@@ -23,6 +23,7 @@
     font-size: 18px; 
   }
 
+/*Homepage (First Page) Code*/
 .homepageBackground{
     background-image: url('image/clean_bandit.png');
     background-size: cover;
@@ -190,6 +191,7 @@ p{
     font-size: large;
     margin-top: 10px;
 }
+/*Song (Second Page) Code*/
 #songPage{
     width: 100%;
     height: 760px;
@@ -535,6 +537,7 @@ p{
     background-size: contain;
     background-repeat: no-repeat;
 }
+/*History (Third Page) Code*/
 #historyPage{
     width: 100%;
     height: 1150px;
@@ -605,6 +608,7 @@ p{
 #discovery2{
     font-size: 17px;
 }
+/* Concert (Fourth Page) */
 .concertPage{
     width: 100%;
     height: 1150px;
